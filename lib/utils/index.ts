@@ -25,5 +25,5 @@ export function getModel() {
     apiKey: process.env.OPENAI_API_KEY, // optional API key, default to env property OPENAI_API_KEY
     organization: '' // optional organization
   })
-  return openai.chat(process.env.OPENAI_API_MODEL || 'gpt-4o')
+  return openai.chat(process.env.OPENAI_API_MODEL || 'gpt-4')
 }
